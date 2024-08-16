@@ -73,10 +73,21 @@ a {
 }
 
 .signupimage {
-    min-width: 40%;
+    min-width: 50%;
+    min-height: 200px;
     align-self: center;
     justify-self: center;
     flex: 1;
+    background-color: grey;
+}
+
+.signupcontent button {
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 25px;
 }
 
 .details{
@@ -87,6 +98,17 @@ a {
     flex-wrap: wrap;
     flex: 1;
     padding: 0 20%;
+}
+
+.details h1 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.imagetextgroup img {
+    min-width: 150px;
+    min-height: 150px;
+    border: 2px solid lightblue;
 }
 
 .imageswithtext{
@@ -127,11 +149,26 @@ a {
     margin: 0 20%;
     display: flex;
     flex-direction: row;
-    background-color: blue;
+
     justify-content: space-around;
     align-items: center;
 }
 
+.finalcontent button {
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    outline: solid white 2px;
+}
+
+.container3{
+    background-color: blue;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+}
 .g1{
     display: flex;
     flex-direction: column;
